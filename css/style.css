@@ -59,3 +59,11 @@ footer.page-footer {
 #my-image {
   padding: 0px;
 }
+
+h5.header.col.s12.m8.l9 {
+  margin-top: 0px;
+}
+
+#my-image {
+  margin-top: 25.2px;
+}

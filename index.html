@@ -17,6 +17,16 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo white-text">Armando Robles</a>
       <ul class="right hide-on-med-and-down">
+      <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+          <li>
+            <a href="#!">one</a>
+          </li>
+          <li>
+            <a href="#!">two</a>
+          </li>
+        </ul> 
+
         <li><a href="#about" class="white-text">About</a></li>
         <li><a href="#portfolio" class="white-text">Portfolio</a></li>
         <li><a href="#contact" class="white-text">Contact</a></li>
@@ -37,23 +47,18 @@
         <h1 class="header center teal-text text-lighten-2" id="about">About Me</h1>
         
         <div class="row center">
-
           <div class="col s12 m4 l3">
-            <div class="card-panel grey lighten-5 z-depth-1">
               <div class="row valign-wrapper">
-                
-                  <img id="my-image" src="./images/ARR_Jul10.png" alt="" class="responsive-img"> <!-- notice the "circle" class -->
-                
+                <img id="my-image" src="./images/ARR_Jul10.png" alt="" class="responsive-img">
               </div>
-            </div>
           </div>
 
           <h5 class="header col s12 m8 l9">
-            <p class="flow-text" id="intro">Full Stack Web Developer, passionate about technology and the way it impacts our everyday life. With a history of being the go-to go guy with troubleshooting and solving issues related to work.
-            <br> Educated in Electronics, Systems and Planning, and Computer Science, with strengths in HTML, CSS, Javascript.
-            <br>Excited to contribute in web design and development for the education, robotics and/or technology industries.
-            <br>Actually sharing the path with professionals that enjoy learning, coding, and technology, while pursuing the best version of myself.
-            <br> I envision me as a contributor of the spread of knowledge and technology, enthusiastic to find the opportunity that allows me to do it as a professional web developer.</p>
+            <p class="flow-text" id="intro">I'm a Full Stack Web Developer, passionate about technology and the way it impacts our everyday life. With a history of being the go-to go guy with troubleshooting and solving issues related to work.</p>
+            <p>Educated in Electronics, Systems and Planning, and Computer Science, with strengths in HTML, CSS, Javascript, Javascript, JQuery, Node.</p>
+            <p>Excited to contribute in web design and development for the education, robotics and/or technology industries.</p>
+            <p>Thrill to share the path with professionals that enjoy learning, coding, and technology.</p>
+            <p> I envision myself as a contributor of the spread of knowledge and technology, enthusiastic to find the opportunity that allows me to do it as a professional web developer.</p>
           </h5>
 
         </div>
@@ -68,42 +73,10 @@
 
   <div class="container">
     <div class="section">
-      <h1 class="header center blue-text text-accent-4">Portfolio</h1>
+      <h1 class="header center blue-text text-accent-4" id="portfolio">Portfolio</h1>
       <!--   Icon Section   -->
       <div class="row">
         
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="./images/CityOfYourDreams.PNG">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Find the City of your dreams providing some info about what is relevant for you in your new city.</p>
-            </div>
-            <div class="card-action">
-              <a href="https://riomando.github.io/The-City-of-Your-Dreams/">The City of Your Dreams</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="./images/ShouldWe.PNG">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Upload your idea for a new app and get feedack if is worth it to give it a try.</p>
-              <br><br>
-            </div>
-            <div class="card-action">
-              <a href="https://swbi.herokuapp.com/">Should We Buid It?</a>
-            </div>
-          </div>
-        </div>
-
-
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
@@ -119,8 +92,37 @@
           </div>
         </div>
 
-      </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/TrainSchedule.PNG">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>Set the initial departure of a train and get the hour of arrival for the nex train.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://riomando.github.io/TrainSchedule/">Train Schedule</a>
+            </div>
+          </div>
+        </div>
 
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/CityOfYourDreams.PNG">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>Find the City of your dreams providing some info about what is relevant for you in your new city.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://riomando.github.io/The-City-of-Your-Dreams/">The City of Your Dreams</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 
@@ -129,7 +131,8 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">.</h5>
+          <!-- Text in the picture area goes here -->
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
@@ -143,7 +146,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4 id='contact'>Contact Me</h4>
-          <h6 class="center">You can contact me at <span><a href="mailto:roblesrioarmand@gmail.com?subject=Mail from a vistor of Armando Robles' Portfolio">roblesrioarmand@gmail.com</a><br></span> or visit any of the links in the <span><a href="#connect">Connect with me! </a></span> section at the end of the page.</h6>
+          <h6 class="center">You can contact me at <span><p><a href="mailto:roblesrioarmand@gmail.com?subject=From a vistor of Armando Robles' Portfolio">roblesrioarmand@gmail.com</a></p></span> or visit any of the links in the <span><a href="#connect">Connect with me! </a></span> section at the end of the page.</h6>
         </div>
       </div>
 
@@ -155,44 +158,52 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">.</h5>
+          <!-- Text in the picture area goes here -->
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="./images/tech-Circuit-Board.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
+  <!-- Page Footer -->
   <footer class="page-footer indigo darken-4">
     <div class="container">
       <div class="row">
+        <!-- Bio section in Footer -->
         <div class="col l6 s12">
           <h5 class="white-text" id="bio">Bio</h5>
           <p class="grey-text text-lighten-4">I fell in love with technology when I was 10 years old and a group of High School students that were passing by praised me for a battery car that I made with some pieces of wood and parts from other battery powered toys. That led me to an Electronic Engineer degree, and a Master in Informatics and Planning Systems.</p>
           <p>Engaged about technology and the process related to teach-learn and education. Passionate about teaching robotics to kids. I envision me as a contributor of the spread of knowledge and technology, passionate to find the opportunity that allows me to do it as a professional web developer.</p>
         </div>
+
+        <!-- Column available to locate additional info -->
         <div class="col l3 s12">
-<!--           <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul> -->
+          <!-- <h3>hi</h3> -->
         </div>
+
+        <!-- Contact with me Section in Footer -->
         <div class="col l3 s12">
           <h5 class="white-text" id="connect">Connect with me!</h5>
           <ul>
-            <li><a class="white-text" href="https://www.linkedin.com/in/armando-robles/">LinkedIn</a></li>
-            <li><a class="white-text" href="https://github.com/RioMando">GitHub</a></li>
-            <li><a class="white-text" href="https://stackoverflow.com/users/8624626/mando-r">Slack</a></li>
+            <li><a class="white-text" href="https://www.linkedin.com/in/armando-robles/" target="_blank">LinkedIn</a></li>
+            <li><a class="white-text" href="https://github.com/RioMando" target="_blank">GitHub</a></li>
+            <li><a class="white-text" href="https://stackoverflow.com/users/8624626/mando-r" target="_blank">Slack</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+        <div class="container">
+          <div class-"row">
+            <div class="col l6 s12">
+              Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            </div>
+            <div class="col l3 s12">
+              <p>&copy 2018 Armando Robles</p>
+            </div>
+          </div>
+        </div>
     </div>
   </footer>
 
