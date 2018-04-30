@@ -6935,6 +6935,8 @@ $jscomp.polyfill = function (e, r, p, m) {
 
     // Add active if input element has been pre-populated on document ready
     $(document).ready(function () {
+      // To activate dropdown menu in navbar
+      $(".dropdown-trigger").dropdown();
       M.updateTextFields();
     });
 
@@ -8027,6 +8029,8 @@ $jscomp.polyfill = function (e, r, p, m) {
   }
 
   $(document).ready(function () {
+    // To activate dropdown menu in navbar
+    $(".dropdown-trigger").dropdown();
     // Handle removal of static chips.
     $(document.body).on('click', '.chip .close', function () {
       var $chips = $(this).closest('.chips');
